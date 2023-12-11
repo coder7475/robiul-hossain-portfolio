@@ -233,6 +233,107 @@ function ITAM() {
   );
 }
 
+function HaloCosmetics() {
+  return (
+    <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+      <Swiper
+        pagination={true}
+        modules={[Pagination]}
+        className="mySwiper text-center"
+      >
+        <SwiperSlide className="">
+          <Image
+            src={halo1}
+            alt="halo1"
+            width="500px"
+            height="500px"
+            priority={true}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo2}
+            alt="halo2"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo3}
+            alt="halo3"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo4}
+            alt="halo4"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo5}
+            alt="halo5"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo6}
+            alt="halo6"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo7}
+            alt="halo7"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image
+            src={halo8}
+            alt="halo8"
+            width="500px"
+            height="500px"
+            priority={false}
+          />
+        </SwiperSlide>
+      </Swiper>
+      <div className="p-6">
+        <h3 className="mb-4 text-xl font-medium text-slate-700">
+          Halo Cosmetics & Beauty
+        </h3>
+        <p>
+          A website for a group company where customers can buy products from
+          different brands of the group.
+        </p>
+        <Link
+          href="https://halo-cosmetics.web.app/"
+          target="_blank"
+          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+        >
+          <span>Go to Live Site!</span>
+        </Link>
+      </div>
+    </div>
+  );
+}
+
 const Projects = () => {
   return (
     <div className="bg-secondary py-2 text-gray min-h-screen " id="projects">
@@ -242,102 +343,8 @@ const Projects = () => {
 
       <ITAM></ITAM>
 
-      <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
-        <Swiper
-          pagination={true}
-          modules={[Pagination]}
-          className="mySwiper text-center"
-        >
-          <SwiperSlide className="">
-            <Image
-              src={halo1}
-              alt="halo1"
-              width="500px"
-              height="500px"
-              priority={true}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo2}
-              alt="halo2"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo3}
-              alt="halo3"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo4}
-              alt="halo4"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo5}
-              alt="halo5"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo6}
-              alt="halo6"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo7}
-              alt="halo7"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="">
-            <Image
-              src={halo8}
-              alt="halo8"
-              width="500px"
-              height="500px"
-              priority={false}
-            />
-          </SwiperSlide>
-          
-        </Swiper>
-        <div className="p-6">
-          <h3 className="mb-4 text-xl font-medium text-slate-700">
-          Halo Cosmetics & Beauty
-          </h3>
-          <p>
-          A website for a group company where customers can buy products from different brands of the group.
-          </p>
-          <Link
-            href="https://halo-cosmetics.web.app/"
-            target="_blank"
-            className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
-          >
-            <span>Go to Live Site!</span>
-          </Link>
-        </div>
-      </div>
+      <HaloCosmetics></HaloCosmetics>
+      
     </div>
   );
 };
