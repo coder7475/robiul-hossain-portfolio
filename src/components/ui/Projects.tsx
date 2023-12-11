@@ -17,17 +17,25 @@ import blog3 from "/public/blogProject/blog3.png";
 import blog4 from "/public/blogProject/blog4.png";
 import blog5 from "/public/blogProject/blog5.png";
 import blog6 from "/public/blogProject/blog6.png";
- 
-import asset1 from '/public/ItAsset/asset1.png';
-import asset2 from '/public/ItAsset/asset2.png';
-import asset3 from '/public/ItAsset/asset3.png';
-import asset4 from '/public/ItAsset/asset4.png';
-import asset5 from '/public/ItAsset/asset5.png';
-import asset6 from '/public/ItAsset/asset6.png';
-import asset7 from '/public/ItAsset/asset7.png';
-import asset8 from '/public/ItAsset/asset8.png';
-import asset9 from '/public/ItAsset/asset9.png';
 
+import asset1 from "/public/ItAsset/asset1.png";
+import asset2 from "/public/ItAsset/asset2.png";
+import asset3 from "/public/ItAsset/asset3.png";
+import asset4 from "/public/ItAsset/asset4.png";
+import asset5 from "/public/ItAsset/asset5.png";
+import asset6 from "/public/ItAsset/asset6.png";
+import asset7 from "/public/ItAsset/asset7.png";
+import asset8 from "/public/ItAsset/asset8.png";
+import asset9 from "/public/ItAsset/asset9.png";
+
+import halo1 from "/public/halo/halo1.png";
+import halo2 from "/public/halo/halo2.png";
+import halo3 from "/public/halo/halo3.png";
+import halo4 from "/public/halo/halo4.png";
+import halo5 from "/public/halo/halo5.png";
+import halo6 from "/public/halo/halo6.png";
+import halo7 from "/public/halo/halo7.png";
+import halo8 from "/public/halo/halo8.png";
 
 function BlogProject() {
   return (
@@ -113,13 +121,9 @@ function BlogProject() {
   );
 }
 
-const Projects = () => {
+function ITAM() {
   return (
-    <div className="bg-secondary py-2 text-gray min-h-screen ">
-      <h1 className="text-4xl font-bold text-center mt-6">My Projects</h1>
-
-      <BlogProject></BlogProject>
-      <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+    <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -209,10 +213,13 @@ const Projects = () => {
       </Swiper>
       <div className="p-6">
         <h3 className="mb-4 text-xl font-medium text-slate-700">
-        Asset Management System Website - AssetIT
+          Asset Management System Website - AssetIT
         </h3>
         <p>
-        A website for a service company that provide IT assets management for other companies. Here, admin can add and remove employee. Admin can accept employees requests for assets or reject them. Admin and employee can current assets status. Admin can create assets.
+          A website for a service company that provide IT assets management for
+          other companies. Here, admin can add and remove employee. Admin can
+          accept employees requests for assets or reject them. Admin and
+          employee can current assets status. Admin can create assets.
         </p>
         <Link
           href="https://assetit-18c66.web.app/"
@@ -223,6 +230,114 @@ const Projects = () => {
         </Link>
       </div>
     </div>
+  );
+}
+
+const Projects = () => {
+  return (
+    <div className="bg-secondary py-2 text-gray min-h-screen " id="projects">
+      <h1 className="text-4xl font-bold text-center mt-6">My Projects</h1>
+
+      <BlogProject></BlogProject>
+
+      <ITAM></ITAM>
+
+      <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+        <Swiper
+          pagination={true}
+          modules={[Pagination]}
+          className="mySwiper text-center"
+        >
+          <SwiperSlide className="">
+            <Image
+              src={halo1}
+              alt="halo1"
+              width="500px"
+              height="500px"
+              priority={true}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo2}
+              alt="halo2"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo3}
+              alt="halo3"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo4}
+              alt="halo4"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo5}
+              alt="halo5"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo6}
+              alt="halo6"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo7}
+              alt="halo7"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={halo8}
+              alt="halo8"
+              width="500px"
+              height="500px"
+              priority={false}
+            />
+          </SwiperSlide>
+          
+        </Swiper>
+        <div className="p-6">
+          <h3 className="mb-4 text-xl font-medium text-slate-700">
+          Halo Cosmetics & Beauty
+          </h3>
+          <p>
+          A website for a group company where customers can buy products from different brands of the group.
+          </p>
+          <Link
+            href="https://halo-cosmetics.web.app/"
+            target="_blank"
+            className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+          >
+            <span>Go to Live Site!</span>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
