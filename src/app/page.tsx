@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import Navbar from '../components/shared/Navbar';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main>
-     <h1 className="bg-primary text-gray">Start</h1>
-    </main>
-  )
-}
+    <div>
+      <Navbar/>
+      <p>Body</p>   
+    </div>
+  );
+};
+
+export default HomePage;
