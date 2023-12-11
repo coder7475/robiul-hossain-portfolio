@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     colors: {
       "primary": "#88AB8E",
-      "secondary": "AFC8AD",
+      "secondary": "#AFC8AD",
       "gray": "#EEE7DA",
       "light": "#F2F1EB"
     }
