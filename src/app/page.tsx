@@ -1,6 +1,7 @@
 import Navbar from '../components/shared/Navbar';
 import Banner from '../components/ui/Banner';
 import Technology from '../components/ui/Technology';
+import Footer from '../components/shared/Footer';
 
 const HomePage = () => {
   return (
@@ -8,7 +9,7 @@ const HomePage = () => {
       <Navbar/>
       <Banner/>
       <Technology/>
-      <p>Body</p>   
+      <Footer/>  
     </div>
   );
 };
