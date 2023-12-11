@@ -34,7 +34,7 @@ const Banner = () => {
                   stroke="currentColor"
                   strokeWidth="1.5"
                   role="graphics-symbol"
-                  ariaLabelledby="title-01 desc-01"
+                  aria-labelledby="title-01 desc-01"
                 >
                   <title id="title-01">Download</title>
                   <desc id="desc-01">
