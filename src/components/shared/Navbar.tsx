@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <header className="text-light bg-primary ">
-      <div className="container mx-auto flex justify-between flex-wrap p-5 flex-col md:flex-row items-center max-w-5xl">
+      <div className="container mx-auto flex justify-between flex-wrap p-5 flex-col md:flex-row items-center max-w-4xl">
         <a className="flex title-font font-medium items-center justify-center text-light mb-4 md:mb-0">
           <span className="text-xl">Portofolio</span>
         </a>
