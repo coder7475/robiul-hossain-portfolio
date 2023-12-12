@@ -49,8 +49,8 @@ function BlogProject() {
           <Image
             src={blog1}
             alt="blog1"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={true}
           />
         </SwiperSlide>
@@ -58,8 +58,8 @@ function BlogProject() {
           <Image
             src={blog2}
             alt="blog2"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -67,8 +67,8 @@ function BlogProject() {
           <Image
             src={blog3}
             alt="blog3"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -76,8 +76,8 @@ function BlogProject() {
           <Image
             src={blog4}
             alt="blog4"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -85,8 +85,8 @@ function BlogProject() {
           <Image
             src={blog5}
             alt="blog5"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -94,8 +94,8 @@ function BlogProject() {
           <Image
             src={blog6}
             alt="blog6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -133,8 +133,8 @@ function ITAM() {
           <Image
             src={asset1}
             alt="asset1"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={true}
           />
         </SwiperSlide>
@@ -142,8 +142,8 @@ function ITAM() {
           <Image
             src={asset2}
             alt="asset2"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -151,8 +151,8 @@ function ITAM() {
           <Image
             src={asset3}
             alt="asset3"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -160,8 +160,8 @@ function ITAM() {
           <Image
             src={asset4}
             alt="asset4"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -169,8 +169,8 @@ function ITAM() {
           <Image
             src={asset5}
             alt="asset5"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -178,8 +178,8 @@ function ITAM() {
           <Image
             src={asset6}
             alt="asset6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -187,8 +187,8 @@ function ITAM() {
           <Image
             src={asset7}
             alt="asset6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -196,8 +196,8 @@ function ITAM() {
           <Image
             src={asset8}
             alt="asset6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -205,8 +205,8 @@ function ITAM() {
           <Image
             src={asset9}
             alt="asset6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -245,8 +245,8 @@ function HaloCosmetics() {
           <Image
             src={halo1}
             alt="halo1"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={true}
           />
         </SwiperSlide>
@@ -254,8 +254,8 @@ function HaloCosmetics() {
           <Image
             src={halo2}
             alt="halo2"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -263,8 +263,8 @@ function HaloCosmetics() {
           <Image
             src={halo3}
             alt="halo3"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -272,8 +272,8 @@ function HaloCosmetics() {
           <Image
             src={halo4}
             alt="halo4"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -281,8 +281,8 @@ function HaloCosmetics() {
           <Image
             src={halo5}
             alt="halo5"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -290,8 +290,8 @@ function HaloCosmetics() {
           <Image
             src={halo6}
             alt="halo6"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -299,8 +299,8 @@ function HaloCosmetics() {
           <Image
             src={halo7}
             alt="halo7"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -308,8 +308,8 @@ function HaloCosmetics() {
           <Image
             src={halo8}
             alt="halo8"
-            width="500px"
-            height="500px"
+            width={500}
+            height={500}
             priority={false}
           />
         </SwiperSlide>
@@ -344,7 +344,7 @@ const Projects = () => {
       <ITAM></ITAM>
 
       <HaloCosmetics></HaloCosmetics>
-      
+
     </div>
   );
 };

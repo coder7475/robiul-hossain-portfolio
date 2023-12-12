@@ -57,8 +57,8 @@ const Banner = () => {
             className=""
             alt="hero"
             src={profilePic}
-            width="720px"
-            height="600px"
+            width={720}
+            height={600}
             priority={true}
           />
         </div>
