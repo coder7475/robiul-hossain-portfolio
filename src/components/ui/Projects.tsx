@@ -60,7 +60,7 @@ function BlogProject() {
             alt="blog2"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -69,7 +69,7 @@ function BlogProject() {
             alt="blog3"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -78,7 +78,7 @@ function BlogProject() {
             alt="blog4"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -87,7 +87,7 @@ function BlogProject() {
             alt="blog5"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -96,7 +96,7 @@ function BlogProject() {
             alt="blog6"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
       </Swiper>
@@ -144,7 +144,7 @@ function ITAM() {
             alt="asset2"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -153,7 +153,7 @@ function ITAM() {
             alt="asset3"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -162,7 +162,7 @@ function ITAM() {
             alt="asset4"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -171,7 +171,7 @@ function ITAM() {
             alt="asset5"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -283,7 +283,7 @@ function HaloCosmetics() {
             alt="halo5"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -292,7 +292,7 @@ function HaloCosmetics() {
             alt="halo6"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -301,7 +301,7 @@ function HaloCosmetics() {
             alt="halo7"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
         <SwiperSlide className="">
@@ -310,7 +310,7 @@ function HaloCosmetics() {
             alt="halo8"
             width={500}
             height={500}
-            priority={false}
+            
           />
         </SwiperSlide>
       </Swiper>

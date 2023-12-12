@@ -37,8 +37,7 @@ const Contact = () => {
           <span className="flex justify-center gap-2 items-center mt-4">
             <Link href="mailto:robiulhossain7475@gmail.com">
               <Image
-                src="https://img.shields.io/badge/Google-white?style=for-the-badge&logo=google&logoColor=whit
-e"
+                src="https://img.shields.io/badge/Google-white?style=for-the-badge&logo=google&logoColor=white"
                 alt="Google Badge"
                 width={200}
                 height={100}
@@ -51,8 +50,7 @@ e"
           <span className="flex justify-center gap-2 items-center mt-4">
             <Link href="https://www.linkedin.com/in/robiul-hossain-298298265/">
               <Image
-                src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor
-=white"
+                src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"
                 width={200}
                 alt="LinkedIn Badge"
                 height={100}
@@ -61,8 +59,7 @@ e"
 
             <Link href="https://www.facebook.com/rhfahadchy">
               <Image
-                src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor
-=white"
+                src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white"
                 alt="Facebook Badge"
                 width={200}
                 height={100}
