@@ -5,8 +5,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'skillicons.dev',
+        hostname: 'skillicons.dev', 
       },
+      {
+        protocol: 'https',
+        hostname: 'img.shields.io',
+      }
     ],
   },
 }
