@@ -3,6 +3,7 @@ import Banner from '../components/ui/Banner';
 import Technology from '../components/ui/Technology';
 import Footer from '../components/shared/Footer';
 import Projects from '../components/ui/Projects';
+import Contact from '../components/ui/Contact';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Banner/>
       <Technology/>
       <Projects/>
+      <Contact/>
       <Footer/>  
     </div>
   );
