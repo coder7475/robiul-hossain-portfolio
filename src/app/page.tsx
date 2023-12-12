@@ -4,6 +4,7 @@ import Technology from '../components/ui/Technology';
 import Footer from '../components/shared/Footer';
 import Projects from '../components/ui/Projects';
 import Contact from '../components/ui/Contact';
+import Education from '../components/ui/Education';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Technology/>
       <Projects/>
       <Contact/>
+      <Education/>
       <Footer/>  
     </div>
   );

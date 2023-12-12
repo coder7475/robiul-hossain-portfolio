@@ -34,6 +34,19 @@ const Contact = () => {
               />
             </Link>
           </span>
+          <span className="flex justify-center gap-2 items-center mt-4">
+
+          <Link href="mailto:robiulhossain7475@gmail.com">
+              <Image
+                src="https://img.shields.io/badge/Google-white?style=for-the-badge&logo=google&logoColor=whit
+e"
+                alt="Google Badge"
+                width={200}
+                height={100}
+
+              />
+            </Link>
+        </span>
         </div>
         <div className="text-center text-gray py-5 pt-10">
           Find more about me on:
@@ -51,17 +64,7 @@ const Contact = () => {
               />
             </a>
 
-            <a href="mailto:robiulhossain7475@gmail.com">
-              <Image
-                src="https://img.shields.io/badge/Google-red?style=for-the-badge&logo=google&logoColor=whit
-e"
-                alt="Google Badge"
-                width={200}
-                height={100}
-
-              />
-            </a>
-
+            
             <a href="https://www.facebook.com/rhfahadchy">
               <Image
                 src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor
