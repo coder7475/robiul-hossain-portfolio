@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className="text-light bg-primary sticky top-0 ">
+    <header className="text-light bg-primary sticky top-0 z-10">
       <div className="container p-5 max-w-[1000px] mx-auto ">
         {/* <a className="flex title-font font-medium items-center justify-center text-light mb-4 md:mb-0">
           <span className="text-[22px]">Portofolio</span>
