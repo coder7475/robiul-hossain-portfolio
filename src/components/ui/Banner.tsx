@@ -12,7 +12,7 @@ const Banner = () => {
             Robiul Hossain
           </h1>
           <p className="mb-8 leading-relaxed font-light">Front End Developer</p>
-          <p className="md:mb-8 leading-relaxed max-w-lg">
+          <p className="md:mb-8 leading-relaxed max-[32rem]">
             Hello, I am Robiul Hossain, a Front End Developer with a primary
             focus on crafting exceptional web experiences using Next.js and the
             MERN (MongoDB, Express.js, React, Node.js) stack.
