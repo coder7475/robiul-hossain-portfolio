@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const Banner = () => {
   return (
-    <section className="text-light bg-primary flex justify-center items-center">
+    <section className="text-light bg-primary flex justify-center items-center max-[1200px] mx-auto">
       <br />
-      <div className="container mx-auto flex justify-center lg:flex-row max-w-4xl flex-col items-center">
+      <div className="container flex justify-center lg:flex-row  flex-col items-center">
         <div className="lg:flex-grow w-full md:w-3/4 flex flex-col md:items-start md:text-left text-center">
           <h1 className="text-4xl lg:text-5xl md:mb-4 font-bold text-light">
             Robiul Hossain
