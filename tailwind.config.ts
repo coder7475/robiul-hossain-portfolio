@@ -10,7 +10,7 @@ const config: Config = {
     colors: {
       "primary": "slate",
       "secondary": "#F4FF8",
-      "gray": "gray",
+      "gray": "#111",
       "light": "#000"
     }
   },
