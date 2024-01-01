@@ -4,22 +4,21 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <section className="text-light bg-primary flex justify-center items-center max-[1200px] mx-auto">
+    <section className="text-light flex justify-center items-center max-w-[1200px] mx-auto mt-10">
       <br />
       <div className="container flex justify-center lg:flex-row flex-col items-center">
         <div className="lg:flex-grow w-full md:w-3/4 flex flex-col md:items-start md:text-left text-center">
+          <p className="text-[22px] py-2">Hi, I am</p>
           <h1 className="text-4xl lg:text-5xl md:mb-4 font-bold text-light">
             Robiul Hossain
           </h1>
-          <p className="mb-8 leading-relaxed font-light">Front End Developer</p>
-          <p className="md:mb-8 leading-relaxed max-[32rem]">
-            Hello, I am Robiul Hossain, a Front End Developer with a primary
-            focus on crafting exceptional web experiences using Next.js and the
-            MERN (MongoDB, Express.js, React, Node.js) stack.
+          <p className="mb-8 leading-relaxed font-light">Junior Web Developer</p>
+          <p className="md:mb-8 leading-relaxed lg:w-2/3">
+            I am a skilled front end developer. Good at creating user Interface using React. I am currently exploring redux and nextjs. My goal is to become a full stack developer based on MERN stack.
           </p>
           <div>
-            <Link href="/resume/robiul_hossain_resume.pdf" download="personal">
-              <div className="inline-flex border-2 items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-blue-500 focus:bg-blue-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
+            <a href="/resume/robiul_hossain_resume.pdf" download="personal">
+              <div className="inline-flex border-2 items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-300 focus:bg-emerald-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
                 <span className="order-2">Resume</span>
                 <span className="relative only:-mx-6">
                   <svg
@@ -42,16 +41,15 @@ const Banner = () => {
                   </svg>
                 </span>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
-        <div className="">
+        <div className="flex items-center">
           <Image
             className=""
             alt="hero"
             src={profilePic}
-            width={720}
-            height={600}
+            width={720}         
             priority={true}
           />
         </div>
