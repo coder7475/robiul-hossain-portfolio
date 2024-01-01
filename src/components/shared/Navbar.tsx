@@ -8,7 +8,7 @@ function NavgiationLinks(props) {
     <ul
       role="menubar"
       aria-label="Select page"
-      className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
+      className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-slate-100 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
         props.isToggleOpen
           ? "visible opacity-100 backdrop-blur-sm"
           : "invisible opacity-0"
@@ -29,7 +29,7 @@ function NavgiationLinks(props) {
           role="menuitem"
           aria-current="page"
           aria-haspopup="false"
-          className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+          className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
           href="#education"
         >
           <span>Education</span>
@@ -63,8 +63,8 @@ const Navbar = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
   return (
-    <header className="border-b-1 sticky top-0 z-20 w-full border-b border-slate-200 bg-blue-800 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-600 lg:border-slate-600 lg:backdrop-blur-sm lg:after:hidden">
-      <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
+    <header className="border-b-1 sticky top-0 z-20 w-full border-b border-slate-200 bg-slate-100  shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-600 lg:border-slate-600 lg:backdrop-blur-sm lg:after:hidden text-xl">
+      <div className="relative px-6 max-w-md lg:max-w-4xl mx-auto">
         <nav
           aria-label="main navigation"
           className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
@@ -92,7 +92,7 @@ const Navbar = () => {
             aria-expanded={isToggleOpen ? "true" : "false"}
             aria-label="Toggle navigation"
           >
-            <div className="absolute text-[22px] font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
+            <div className="absolute text-2xl font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
               <AiOutlineMenuFold />
             </div>
           </button>
