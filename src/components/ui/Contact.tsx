@@ -5,11 +5,10 @@ import whatup from "/public/image/whatUp.png";
 function MessageContact() {
   return (
     <div className="text-xl font-semibold">
-      Message me via:{" "}
       <span className="flex justify-center gap-2 items-center mt-4 flex-col lg:flex-row">
         <Link
           href="https://wa.me/8801774757227?text=I%20am%20interested%20in%20working%20with%20you%20!"
-          className="mb-2 flex gap-2 md:text-lg rounded px-6 items-center justify-center py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+          className="mb-2 flex gap-2 md:text-lg rounded px-6 items-center justify-center py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +23,7 @@ function MessageContact() {
 
         <Link
           href="https://m.me/rhfahadchy/"
-          className="mb-2 items-center justify-center flex gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+          className="mb-2 items-center justify-center flex gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
             className="h-5 w-5"
@@ -41,7 +40,7 @@ function MessageContact() {
 
         <Link
           href="mailto:robiulhossain7475@gmail.com"
-          className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+          className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -64,30 +63,30 @@ function MessageContact() {
 
 const Contact = () => {
   return (
-    <div id="contact" className="min-h-screen bg-secondary py-4 pt-10">
-      <h1 className="text-4xl text-center font-bold text-gray">Contact Me</h1>
-      <div className="text-center text-gray py-5 pt-10">
+    <div id="contact" className="pt-10 ">
+      <h1 className="text-xl lg:text-4xl text-center font-bold">Contact Me</h1>
+      <div className="text-center text-gray py-5">
         <MessageContact></MessageContact>
-        <div className="text-center text-gray py-5 pt-10">
-          Find more about me on:
-          <span className="flex justify-center gap-2 items-center mt-4">
+        <div className="text-center">
+          <span className="flex flex-col lg:flex-row justify-center gap-2 items-center">
             <Link
               href="https://www.linkedin.com/in/robiul-hossain-298298265/"
-              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              className="flex items-center justify-center gap-2  md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 mb-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
                 <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
               </svg>
+               Linkedin
             </Link>
 
             <Link
               href="https://www.facebook.com/rhfahadchy"
-              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,12 +96,12 @@ const Contact = () => {
               >
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
               </svg>
+              Facebook
             </Link>
-          </span>
-          <span className="flex justify-center gap-2 items-center mt-4">
+
             <Link
               href="https://leetcode.com/robiul_hossain/"
-              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-primary leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
                 width="40"
@@ -129,21 +128,23 @@ const Contact = () => {
                   fill="black"
                 ></path>
               </svg>
+              LeetCode
             </Link>
-          </span>
-          <span className="flex justify-center gap-2 items-center mt-4">
+
             <Link
-              href="https://codeforces.com/profile/robiulhossain7475"
-              className="mb-2 inline-block rounded text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out bg-white hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              href="https://github.com/coder7475"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
-              <Image
-                src="/image/codeforces.png"
-                alt="codeforces"
-                width={200}
-                height={200}
-              />
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="40" height="30">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-3.54 2.29-6.53 5.47-7.59.4-.07.55.17.55.38 0 .19-.01.82-.01 1.49-2.01-.37-2.53.49-2.69.94-.09.23-.48.94-.82 1.13-.28.15-.68.52-.01.53.63.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.74-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38C17.71 15.47 20 18.46 20 22h-3c-.22 0-.41-.17-.45-.39-.04-.22-.32-2.55-.46-3.39.03-.44.2-1.92-.5-2.84 0 0-1.53-.49-2.5 1.1-.74 1.41-1.68 1.19-1.68 1.19-.59-.42-.21-.41-.21-.41.74-.05 1.2.72 1.2.72.69 1.18 1.81.84 2.25.64.07-.5.26-.83.47-1.03-1.65-.19-3.38-.81-3.38-3.59 0-.79.28-1.44.74-1.95-.07-.19-.32-.92.07-1.92 0 0 .61-.21 2 .74.58-.16 1.2-.24 1.82-.23.62.01 1.24.09 1.82.23 1.39-.95 2-0.74 2-0.74.39 1 .14 1.73.07 1.92.45.51.73 1.16.73 1.95 0 2.79-1.72 3.4-3.35 3.59.26.23.49.68.49 1.38 0 1-.01 1.8-.01 2.04 0 .21.15.46.55.38C17.71 15.47 20 18.46 20 22h-3c-.22 0-.41-.17-.45-.39-.04-.22-.32-2.55-.46-3.39.02-.45.1-1.67-.22-2.76" />
+            </svg>
+
+              GitHub
             </Link>
           </span>
+                 
         </div>
       </div>
     </div>

@@ -100,7 +100,7 @@ function BlogProject() {
         </h3>
         <p className="h-24">
           A blog website where programmers can share their thoughts with each
-          other. Here they can publish their own blog, update it and comment on other's blogs.
+          other.
         </p>
         <Link
           href="https://programmers-blog-68efb.web.app/"
@@ -201,7 +201,7 @@ function ITAM() {
         </h3>
         <p className="h-24">
           A website for a service company that provide IT assets management system for
-          other companies. Here a user role can be differentiated as admin or employee.
+          other companies.
         </p>
         <Link
           href="https://assetit-18c66.web.app/"
@@ -312,7 +312,7 @@ const Projects = () => {
   return (
       <div id="projects"> 
         <h1
-          className="text-5xl font-bold text-center mt-10 py-6"
+          className="text-xl md:text-5xl font-bold text-center mt-10 py-6"
         >
           My Projects          
         </h1>
