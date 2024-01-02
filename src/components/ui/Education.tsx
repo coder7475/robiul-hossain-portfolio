@@ -1,7 +1,7 @@
 const Education = () => {
   return (
-    <div id="education" className="bg-secondary text-center pb-20">
-      <h1 className="text-5xl text-center font-black text-gray pb-10">My Education</h1>
+    <div id="education" className="text-center pt-10 mb-10">
+      <h1 className="text-4xl text-center font-bold pb-10">My Education</h1>
       <div className="text-gray text-xl space-y-2">
         <h1 className="text-light font-semibold">B. Sc in Computer Science and Engineering(CSE)</h1>
         <h2 className="text-sm">
