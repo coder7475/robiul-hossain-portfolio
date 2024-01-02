@@ -17,7 +17,6 @@ const Technology = () => {
         </a>
       </p>
 
-
     </section>
   );
 };

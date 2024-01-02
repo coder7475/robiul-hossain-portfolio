@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
 import profilePic from "./../../assets/profile.png";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
@@ -16,7 +18,11 @@ const Banner = () => {
           <p className="md:mb-8 leading-relaxed lg:w-2/3">
             I am a skilled front end developer. Good at creating user Interface using React. I am currently exploring redux and nextjs. My goal is to become a full stack developer based on MERN stack.
           </p>
-          <div>
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
+          >
             <a href="/resume/robiul_hossain_resume.pdf" download="personal">
               <div className="inline-flex border-2 items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-300 focus:bg-emerald-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
                 <span className="order-2">Resume</span>
@@ -42,7 +48,7 @@ const Banner = () => {
                 </span>
               </div>
             </a>
-          </div>
+          </motion.div>
         </div>
         <div className="flex items-center">
           <Image
