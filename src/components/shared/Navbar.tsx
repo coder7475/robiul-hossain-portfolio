@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenuFold } from "react-icons/ai";
 
-function NavgiationLinks(props) {
+function NavgiationLinks(props:any) {
   return (
     <ul
       role="menubar"
