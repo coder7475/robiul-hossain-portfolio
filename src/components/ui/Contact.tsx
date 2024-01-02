@@ -4,10 +4,12 @@ import whatup from "/public/image/whatUp.png";
 
 function MessageContact() {
   return (
-    <div className="text-xl font-semibold">
+    <div className="text-lg md:text-xl font-semibold">
       <span className="flex justify-center gap-2 items-center mt-4 flex-col lg:flex-row">
         <Link
           href="https://wa.me/8801774757227?text=I%20am%20interested%20in%20working%20with%20you%20!"
+          rel="noopener noreferrer"
+          target="_blank"
           className="mb-2 flex gap-2 md:text-lg rounded px-6 items-center justify-center py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
@@ -23,6 +25,8 @@ function MessageContact() {
 
         <Link
           href="https://m.me/rhfahadchy/"
+          rel="noopener noreferrer"
+          target="_blank"
           className="mb-2 items-center justify-center flex gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
@@ -40,6 +44,8 @@ function MessageContact() {
 
         <Link
           href="mailto:robiulhossain7475@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
           className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         >
           <svg
@@ -64,13 +70,15 @@ function MessageContact() {
 const Contact = () => {
   return (
     <div id="contact" className="pt-10 ">
-      <h1 className="text-xl lg:text-4xl text-center font-bold">Contact Me</h1>
+      <h1 className="text-xl lg:text-4xl text-center font-bold">Contact Me Via</h1>
       <div className="text-center text-gray py-5">
         <MessageContact></MessageContact>
         <div className="text-center">
           <span className="flex flex-col lg:flex-row justify-center gap-2 items-center">
             <Link
               href="https://www.linkedin.com/in/robiul-hossain-298298265/"
+              rel="noopener noreferrer"
+              target="_blank"
               className="flex items-center justify-center gap-2  md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
@@ -86,6 +94,8 @@ const Contact = () => {
 
             <Link
               href="https://www.facebook.com/rhfahadchy"
+              rel="noopener noreferrer"
+              target="_blank"
               className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
@@ -101,6 +111,8 @@ const Contact = () => {
 
             <Link
               href="https://leetcode.com/robiul_hossain/"
+              rel="noopener noreferrer"
+              target="_blank"
               className="mb-2 flex items-center justify-center gap-2 md:text-lg rounded px-6 py-2.5 text-xs font-medium bg-slate-100 leading-normal  shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
