@@ -39,7 +39,7 @@ import halo8 from "/public/halo/halo8.png";
 
 function BlogProject() {
   return (
-    <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full mx-2 lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -95,18 +95,17 @@ function BlogProject() {
         </SwiperSlide>
       </Swiper>
       <div className="p-6">
-        <h3 className="mb-4 text-xl font-medium text-slate-700">
-          A Blog Website - Robiul&apos;s blogs
+        <h3 className="text-xl h-10 font-medium text-slate-700">
+          Robiul&apos;s blogs
         </h3>
-        <p>
+        <p className="h-24">
           A blog website where programmers can share their thoughts with each
-          other. Everybody can add and update their own blog after login. They
-          can comment on others blogs.
+          other. Here they can publish their own blog, update it and comment on other's blogs.
         </p>
         <Link
           href="https://programmers-blog-68efb.web.app/"
           target="_blank"
-          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide border-2 transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:bg-emerald-200 focus:bg-emerald-700 disabled:cursor-not-allowed border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
         >
           <span>Go to Live Site!</span>
         </Link>
@@ -117,7 +116,7 @@ function BlogProject() {
 
 function ITAM() {
   return (
-    <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full mx-2 lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -197,19 +196,17 @@ function ITAM() {
         </SwiperSlide>
       </Swiper>
       <div className="p-6">
-        <h3 className="mb-4 text-xl font-medium text-slate-700">
-          Asset Management System Website - AssetIT
+        <h3 className="text-xl h-10 font-medium text-slate-700">
+          AssetIT 
         </h3>
-        <p>
-          A website for a service company that provide IT assets management for
-          other companies. Here, admin can add and remove employee. Admin can
-          accept employees requests for assets or reject them. Admin and
-          employee can current assets status. Admin can create assets.
+        <p className="h-24">
+          A website for a service company that provide IT assets management system for
+          other companies. Here a user role can be differentiated as admin or employee.
         </p>
         <Link
           href="https://assetit-18c66.web.app/"
           target="_blank"
-          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide border-2 transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:bg-emerald-200 focus:bg-emerald-700 disabled:cursor-not-allowed border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
         >
           <span>Go to Live Site!</span>
         </Link>
@@ -220,7 +217,7 @@ function ITAM() {
 
 function HaloCosmetics() {
   return (
-    <div className="overflow-hidden bg-white rounded-lg shadow-md text-slate-500 shadow-slate-200 lg:w-2/3 mx-2 lg:mx-auto mt-6 bg-primary">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full mx-2 lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -295,14 +292,14 @@ function HaloCosmetics() {
         <h3 className="mb-4 text-xl font-medium text-slate-700">
           Halo Cosmetics & Beauty
         </h3>
-        <p>
+        <p className="h-24">
           A website for a group company where customers can buy products from
           different brands of the group.
         </p>
         <Link
           href="https://halo-cosmetics.web.app/"
           target="_blank"
-          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:text-gray focus:bg-emerald-700 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide border-2 transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:bg-emerald-200 focus:bg-emerald-700 disabled:cursor-not-allowed border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
         >
           <span>Go to Live Site!</span>
         </Link>
@@ -313,17 +310,19 @@ function HaloCosmetics() {
 
 const Projects = () => {
   return (
-    <div className="bg-secondary py-2 text-gray min-h-screen " id="projects">
-      <h1 className="text-4xl font-bold text-center mt-6">My Projects</h1>
-
-      <BlogProject></BlogProject>
-
-      <ITAM></ITAM>
-
-      <HaloCosmetics></HaloCosmetics>
-
-    </div>
-  );
-};
+      <div id="projects"> 
+        <h1
+          className="text-5xl font-bold text-center mt-10 py-6"
+        >
+          My Projects          
+        </h1>
+        <div className="min-h-screen grid grid-cols-1 md:grid-cols-2 max-w-[1200px] mx-auto gap-2">  
+          <ITAM></ITAM> 
+          <BlogProject></BlogProject>
+          <HaloCosmetics></HaloCosmetics> 
+        </div>  
+      </div>  
+  );  
+};  
 
 export default Projects;

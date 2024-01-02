@@ -13,7 +13,7 @@ const Technology = () => {
       <h1 className="font-bold text-center md:text-3xl lg:text-4xl md:my-10 text-2xl">My Tools</h1>
       <p>
         <a href="https://skillicons.dev">
-          <Image src="https://skillicons.dev/icons?i=vscode,vite,git,github,postman" width="500" height="500" alt="tech"/>
+          <Image src="https://skillicons.dev/icons?i=vscode,vite,git,github,postman,linux" width="500" height="500" alt="tools"/>
         </a>
       </p>
 
