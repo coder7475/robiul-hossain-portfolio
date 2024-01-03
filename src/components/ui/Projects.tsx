@@ -39,7 +39,7 @@ import halo8 from "/public/halo/halo8.png";
 
 function BlogProject() {
   return (
-    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-2 lg:mx-auto mt-6">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -116,7 +116,7 @@ function BlogProject() {
 
 function ITAM() {
   return (
-    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-2 lg:mx-auto mt-6">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
@@ -217,7 +217,7 @@ function ITAM() {
 
 function HaloCosmetics() {
   return (
-    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-2 lg:mx-auto mt-6">
+    <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
         pagination={true}
         modules={[Pagination]}
