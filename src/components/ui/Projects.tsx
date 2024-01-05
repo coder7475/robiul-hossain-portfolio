@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 // import all necessary images
 import blog1 from "/public/blogProject/blog1.png";
@@ -37,6 +37,7 @@ import halo5 from "/public/halo/halo5.png";
 import halo6 from "/public/halo/halo6.png";
 import halo7 from "/public/halo/halo7.png";
 import halo8 from "/public/halo/halo8.png";
+import { motion } from "framer-motion";
 
 function BlogProject() {
   return (
@@ -55,52 +56,22 @@ function BlogProject() {
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
-          <Image
-            src={blog1}
-            alt="blog1"
-            
-            priority={true}
-          />
+          <Image src={blog1} alt="blog1" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={blog2}
-            alt="blog2"
-            
-            priority={true}
-          />
+          <Image src={blog2} alt="blog2" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={blog3}
-            alt="blog3"
-            
-            priority={true}
-          />
+          <Image src={blog3} alt="blog3" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={blog4}
-            alt="blog4"
-            
-            priority={true}
-          />
+          <Image src={blog4} alt="blog4" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={blog5}
-            alt="blog5"
-            
-            priority={true}
-          />
+          <Image src={blog5} alt="blog5" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={blog6}
-            alt="blog6"
-            
-            priority={true}
-          />
+          <Image src={blog6} alt="blog6" priority={true} />
         </SwiperSlide>
       </Swiper>
       <div className="p-6">
@@ -111,13 +82,19 @@ function BlogProject() {
           A blog website where programmers can share their thoughts with each
           other.
         </p>
-        <Link
-          href="https://programmers-blog-68efb.web.app/"
-          target="_blank"
-          className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide border-2 transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:bg-emerald-200 focus:bg-emerald-700 disabled:cursor-not-allowed border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+        <motion.div
+          whileHover={{ scale: 0.9 }}
+          whileTap={{ scale: 1.2 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
-          <span>Go to Live Site!</span>
-        </Link>
+          <Link
+            href="https://programmers-blog-68efb.web.app/"
+            target="_blank"
+            className="inline-flex mt-3 items-center justify-center w-full h-10 gap-2 px-5 text-sm font-medium tracking-wide border-2 transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-secondary hover:bg-emerald-200 focus:bg-emerald-700 disabled:cursor-not-allowed border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none"
+          >
+            <span>Go to Live Site!</span>
+          </Link>
+        </motion.div>
       </div>
     </div>
   );
@@ -140,86 +117,44 @@ function ITAM() {
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
-          <Image
-            src={asset1}
-            alt="asset1"
-            
-            priority={true}
-          />
+          <Image src={asset1} alt="asset1" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset2}
-            alt="asset2"
-            
-            priority={true}
-          />
+          <Image src={asset2} alt="asset2" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset3}
-            alt="asset3"
-            
-            priority={true}
-          />
+          <Image src={asset3} alt="asset3" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset4}
-            alt="asset4"
-            
-            priority={true}
-          />
+          <Image src={asset4} alt="asset4" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset5}
-            alt="asset5"
-            
-            priority={true}
-          />
+          <Image src={asset5} alt="asset5" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset6}
-            alt="asset6"
-            
-            priority={true}
-          />
+          <Image src={asset6} alt="asset6" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset7}
-            alt="asset6"
-            
-            priority={true}
-          />
+          <Image src={asset7} alt="asset6" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset8}
-            alt="asset6"
-            
-            priority={true}
-          />
+          <Image src={asset8} alt="asset6" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={asset9}
-            alt="asset6"
-            
-            priority={true}
-          />
+          <Image src={asset9} alt="asset6" priority={true} />
         </SwiperSlide>
       </Swiper>
       <div className="p-6">
-        <h3 className="text-xl h-10 font-medium text-slate-700">
-          AssetIT 
-        </h3>
+        <h3 className="text-xl h-10 font-medium text-slate-700">AssetIT</h3>
         <p className="h-24">
-          A website for a service company that provide IT assets management system for
-          other companies.
+          A website for a service company that provide IT assets management
+          system for other companies.
         </p>
+        <motion.div
+          whileHover={{ scale: 0.9 }}
+          whileTap={{ scale: 1.2 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
         <Link
           href="https://assetit-18c66.web.app/"
           target="_blank"
@@ -227,6 +162,7 @@ function ITAM() {
         >
           <span>Go to Live Site!</span>
         </Link>
+        </motion.div>
       </div>
     </div>
   );
@@ -246,72 +182,31 @@ function HaloCosmetics() {
         pagination={{
           clickable: true,
         }}
-
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
-          <Image
-            src={halo1}
-            alt="halo1"
-            
-            priority={true}
-          />
+          <Image src={halo1} alt="halo1" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo2}
-            alt="halo2"
-            
-            priority={true}
-          />
+          <Image src={halo2} alt="halo2" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo3}
-            alt="halo3"
-            
-            priority={true}
-          />
+          <Image src={halo3} alt="halo3" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo4}
-            alt="halo4"
-            
-            priority={true}
-          />
+          <Image src={halo4} alt="halo4" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo5}
-            alt="halo5"
-            
-            priority={true}
-          />
+          <Image src={halo5} alt="halo5" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo6}
-            alt="halo6"
-            
-            priority={true}
-          />
+          <Image src={halo6} alt="halo6" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo7}
-            alt="halo7"
-            
-            priority={true}
-          />
+          <Image src={halo7} alt="halo7" priority={true} />
         </SwiperSlide>
         <SwiperSlide className="">
-          <Image
-            src={halo8}
-            alt="halo8"
-            
-            priority={true}
-          />
+          <Image src={halo8} alt="halo8" priority={true} />
         </SwiperSlide>
       </Swiper>
       <div className="p-6">
@@ -322,6 +217,11 @@ function HaloCosmetics() {
           A website for a group company where customers can buy products from
           different brands of the group.
         </p>
+        <motion.div
+          whileHover={{ scale: 0.9 }}
+          whileTap={{ scale: 1.2 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
         <Link
           href="https://halo-cosmetics.web.app/"
           target="_blank"
@@ -329,6 +229,7 @@ function HaloCosmetics() {
         >
           <span>Go to Live Site!</span>
         </Link>
+        </motion.div>
       </div>
     </div>
   );
@@ -336,19 +237,17 @@ function HaloCosmetics() {
 
 const Projects = () => {
   return (
-      <div id="projects"> 
-        <h1
-          className="text-xl md:text-5xl font-bold text-center mt-10 py-6"
-        >
-          My Projects          
-        </h1>
-        <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2 max-w-[1200px] mx-auto gap-2">  
-          <ITAM></ITAM> 
-          <BlogProject></BlogProject>
-          <HaloCosmetics></HaloCosmetics> 
-        </div>  
-      </div>  
-  );  
-};  
+    <div id="projects">
+      <h1 className="text-xl md:text-5xl font-bold text-center mt-10 py-6">
+        My Projects
+      </h1>
+      <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2 max-w-[1200px] mx-auto gap-2">
+        <ITAM></ITAM>
+        <BlogProject></BlogProject>
+        <HaloCosmetics></HaloCosmetics>
+      </div>
+    </div>
+  );
+};
 
 export default Projects;

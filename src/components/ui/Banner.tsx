@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="text-light flex justify-center items-center max-w-[1200px] mx-auto my-15">
+    <section className="text-light flex justify-center items-center max-w-[80%] mx-auto my-15 py-5">
       <br />
       <div className="container flex justify-center lg:flex-row flex-col items-center">
         <div className="lg:flex-grow w-full md:w-3/4 flex flex-col md:items-start md:text-left text-center">
