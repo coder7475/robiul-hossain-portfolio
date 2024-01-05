@@ -9,7 +9,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 // import all necessary images
 import blog1 from "/public/blogProject/blog1.png";
 import blog2 from "/public/blogProject/blog2.png";
@@ -41,8 +42,16 @@ function BlogProject() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
@@ -118,8 +127,16 @@ function ITAM() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
@@ -219,8 +236,17 @@ function HaloCosmetics() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+
         className="mySwiper text-center"
       >
         <SwiperSlide className="">
