@@ -47,7 +47,7 @@ function BlogProject() {
         centeredSlides={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         pagination={{
           clickable: true,
@@ -132,7 +132,7 @@ function ITAM() {
         centeredSlides={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         pagination={{
           clickable: true,
@@ -241,7 +241,7 @@ function HaloCosmetics() {
         centeredSlides={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         pagination={{
           clickable: true,
