@@ -69,10 +69,13 @@ function MessageContact() {
 
 const Contact = () => {
   return (
-    <div id="contact" className="pt-10 ">
-      <h1 className="text-xl lg:text-4xl text-center font-bold">Contact Me Via</h1>
-      <div className="text-center text-gray py-5">
+    <div id="contact" className="py-10 min-h-screen flex flex-col justify-center items-center">
+      <div className="text-center text-gray">
+      <h1 className="text-xl lg:text-4xl text-center font-bold mt-2 mb-5 lg:my-10">Contact Me Via</h1>
         <MessageContact></MessageContact>
+       
+      <h1 className="text-xl lg:text-4xl text-center font-bold mt-2 mb-5 lg:my-10">Find More About Me</h1>
+
         <div className="text-center">
           <span className="flex flex-col lg:flex-row justify-center gap-2 items-center">
             <Link
