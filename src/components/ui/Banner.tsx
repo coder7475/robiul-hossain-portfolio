@@ -1,6 +1,6 @@
 import Image from "next/image";
-import profilePic from "./../../assets/profile.png";
-import Link from "next/link";
+import profilePic from "./../../assets/robiul_hossain.png";
+// import Link from "next/link";
 import ResumeBtn from "./ResumeBtn";
 
 function MyDescription() {
