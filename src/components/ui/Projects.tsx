@@ -43,13 +43,9 @@ function BlogProject() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Pagination, Navigation]}
         spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
-        }}
+        centeredSlides={true}     
         pagination={{
           clickable: true,
         }}
@@ -104,13 +100,9 @@ function ITAM() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Pagination, Navigation]}
         spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
-        }}
+        centeredSlides={true}      
         pagination={{
           clickable: true,
         }}
@@ -172,13 +164,9 @@ function HaloCosmetics() {
   return (
     <div className="overflow-hidden bg-slate-100 rounded-lg shadow-md text-slate-500 shadow-slate-200 w-full lg:mx-auto mt-6">
       <Swiper
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Pagination, Navigation]}
         spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
-        }}
+        centeredSlides={true}      
         pagination={{
           clickable: true,
         }}
@@ -242,9 +230,9 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2 max-w-[1200px] mx-auto gap-2">
-        <ITAM></ITAM>
-        <BlogProject></BlogProject>
-        <HaloCosmetics></HaloCosmetics>
+        <ITAM />
+        <BlogProject />
+        <HaloCosmetics />
       </div>
     </div>
   );
