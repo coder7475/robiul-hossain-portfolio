@@ -1,14 +1,14 @@
 import Image from "next/image";
-import profilePic from "./../../assets/robiul_hossain.png";
+import profilePic from "./../../assets/preview.png";
 // import Link from "next/link";
 import ResumeBtn from "./ResumeBtn";
 
 function MyDescription() {
   return (
     <p className="md:mb-8 leading-relaxed lg:w-2/3">
-      I am a junior web developer.I am skilled in creating client web app using
-      React. I am currently exploring full stack react framework NextJs. My goal
-      is to become a software engineer focused on web technologies.
+      I am a software engineer focusing on web technologies. I am skilled in creating client web app using
+      React. I am currently exploring backend development with node.js, typecript. I want to become a principle software engineer in 
+      next 5 years.
     </p>
   );
 }
