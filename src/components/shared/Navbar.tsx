@@ -63,22 +63,19 @@ const Navbar = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
   return (
-    <header className="border-b-1 sticky top-0 z-20 w-full border-b border-slate-200 bg-slate-100  shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-600 lg:border-slate-600 lg:backdrop-blur-sm lg:after:hidden text-xl">
-      <div className="relative px-6 max-w-md lg:max-w-4xl mx-auto">
+    <header className="border-b-1 sticky top-0 z-20 w-full border-b border-slate-200 bg-slate-100  shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-600 lg:border-slate-600 lg:backdrop-blur-sm lg:after:hidden text-xl px-4">
+      <div className="relative max-w-7xl mx-auto">
         <nav
           aria-label="main navigation"
           className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
           role="navigation"
         >
-          <Link
-            id="WindUI"
-            aria-label="logo"
-            aria-current="page"
-            className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
-            href="/"
-          >
-            Portofolio
-          </Link>
+          <img
+            src="/image/www.png"
+            alt="portofolio icon"
+            className="w-16 h-16"
+          />
+
           {/*      <!-- Mobile trigger --> */}
           <button
             className={`relative order-10 block self-center lg:hidden

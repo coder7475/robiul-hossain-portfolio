@@ -6,9 +6,10 @@ import ResumeBtn from "./ResumeBtn";
 function MyDescription() {
   return (
     <p className="md:mb-8 leading-relaxed lg:w-2/3">
-      I am a software engineer focusing on web technologies. I am skilled in creating client web app using
-      React. I am currently exploring backend development with Node.js, TypeScript. I want to become a 
-      principle software engineer in next 5 years.
+      I am a software engineer focusing on web technologies. I am skilled in
+      creating client web app using React. I am currently exploring backend
+      development with Node.js, TypeScript. I want to become a principle
+      software engineer in next 5 years.
     </p>
   );
 }
