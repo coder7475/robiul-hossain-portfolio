@@ -20,8 +20,8 @@ const ResumeBtn = () => {
         href="/resume/Robiul_Hossain_Resume.pdf"
         download="Robiul_Hossain_Resume"
       >
-        <div className="inline-flex border-2 items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-300 focus:bg-emerald-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
-          <span className="order-2">Resume</span>
+        <div className="inline-flex border-2 bg-slate-100 items-center justify-center h-12 gap-2 px-6 text-sm font-bold tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-300 focus:bg-emerald-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
+          <span className="order-2">Download Resume</span>
           <span className="relative only:-mx-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
