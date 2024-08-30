@@ -67,13 +67,13 @@ const Navbar = () => {
       <div className="relative max-w-7xl mx-auto">
         <nav
           aria-label="main navigation"
-          className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
+          className="flex h-[5.5rem] items-center justify-between font-medium text-slate-700 mx-4"
           role="navigation"
         >
           <img
             src="/image/www.png"
             alt="portofolio icon"
-            className="w-16 h-16"
+            className="w-12 h-12 lg:w-16 lg:h-16"
           />
 
           {/*      <!-- Mobile trigger --> */}
