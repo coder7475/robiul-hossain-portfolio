@@ -32,7 +32,7 @@ const Banner = () => {
     <section className="text-light flex justify-center items-center max-w-[80%] mx-auto py-15">
       <br />
       <div className="container flex justify-center lg:flex-row flex-col items-center">
-        <LeftBannerText></LeftBannerText>
+        <LeftBannerText />
         <div className="flex items-center">
           <Image
             className=""
