@@ -6,10 +6,9 @@ import ResumeBtn from "./ResumeBtn";
 function MyDescription() {
   return (
     <p className="md:mb-8 leading-relaxed lg:w-2/3">
-      I am a software engineer focusing on web technologies. I am skilled in
-      creating client web app using React. I am currently exploring backend
-      development with Node.js, TypeScript. I want to become a principle
-      software engineer in next 5 years.
+      I am a software engineer focusing on web technologies. I am passionate
+      about working across all stages of software development lifecyle.
+      Currently I am focusing on the deployment and maintenance stage.
     </p>
   );
 }
@@ -21,9 +20,9 @@ function LeftBannerText() {
       <h1 className="text-4xl lg:text-5xl md:mb-4 font-bold text-light">
         Robiul Hossain
       </h1>
-      <p className="mb-8 leading-relaxed">Software Enginner</p>
-      <MyDescription></MyDescription>
-      <ResumeBtn></ResumeBtn>
+      <p className="mb-8 leading-relaxed">Acting DevOps Engineer @ OctopusX</p>
+      <MyDescription />
+      <ResumeBtn />
     </div>
   );
 }
