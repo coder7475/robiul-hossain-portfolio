@@ -20,7 +20,7 @@ function LeftBannerText() {
       <h1 className="text-4xl lg:text-5xl md:mb-4 font-bold text-light">
         Robiul Hossain
       </h1>
-      <p className="mb-8 leading-relaxed">DevOps Engineer @ OctopusX</p>
+      <p className="mb-8 leading-relaxed">DevOps Engineer</p>
       <MyDescription />
       <ResumeBtn />
     </div>
