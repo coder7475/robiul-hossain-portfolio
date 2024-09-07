@@ -14,6 +14,6 @@ echo "Creating Production Build..."
 npm run build
 
 echo "PM2 Reload"
-pm2 reload 5
+pm2 reload robiul_portfolio
 
 echo "Deployment Finished!"
