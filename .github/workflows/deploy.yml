@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to VPSDW11
 
 on:
   push:
