@@ -7,10 +7,10 @@ on:
       - development
 
 jobs:
-  example-job:
+  build:
     runs-on: self-hosted
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo "Hello from a self-hosted runner!"
+      - name: Build
+        run: npm build
