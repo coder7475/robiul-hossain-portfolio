@@ -16,3 +16,11 @@ jobs:
         run: npm ci
       - name: Run build
         run: npm run build
+      - name: Update README badge
+        run: |
+          sed -i 's/\(!\[Self-hosted Runner Workflow\]\)[^)]*/\1(https:\/\/github.com\/coder7475\/robiul-hossain-portfolio\/actions\/workflows\/self-hosted.yml\/badge.svg)/' README.md
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add README.md
+          git commit -m "Update Self-hosted Runner Workflow badge in README" || echo "No changes to commit"
+          git push
