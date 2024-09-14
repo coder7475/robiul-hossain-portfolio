@@ -15,6 +15,3 @@ jobs:
       - name: Remove unnecessary packages
         run: |
           echo ${{ secrets.SUDO_PASSWORD }} | sudo -S apt autoremove -y
-      - name: Update badge in README.md
-        run: |
-          sed -i 's/.*Server Hardening.*/[![Server Hardening](https:\/\/github.com\/${{ github.repository }}\/actions\/workflows\/server_hardening.yml\/badge.svg)](https:\/\/github.com\/${{ github.repository }}\/actions\/workflows\/server_hardening.yml)/' README.md
