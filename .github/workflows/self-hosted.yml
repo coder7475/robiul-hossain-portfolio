@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Update and upgrade apt packages
         run: |
-          sudo apt update && sudo apt upgrade -y
+          echo ${{ secrets.SUDO_PASSWORD }} | sudo apt update && sudo apt upgrade -y
