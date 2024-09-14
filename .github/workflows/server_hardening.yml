@@ -15,4 +15,4 @@ jobs:
 
       - name: Add badge to README.md
         run: |
-          echo "[![Server Hardening](https://github.com/${{ github.repository }}/actions/workflows/server_hardening.yml/badge.svg)](https://github.com/${{ github.repository }}/actions/workflows/server_hardening.yml)" >> README.md
+          echo "[![Server Hardening](https://github.com/coder7475/${{ github.repository }}/actions/workflows/server_hardening.yml/badge.svg)](https://github.com/coder7475/${{ github.repository }}/actions/workflows/server_hardening.yml)" >> README.md
