@@ -9,9 +9,5 @@ jobs:
   hardening:
     runs-on: self-hosted
     steps:
-      - name: Update and upgrade apt packages
-        run: |
-          echo ${{ secrets.SUDO_PASSWORD }} | sudo -S apt update && sudo -S apt upgrade -y
-      - name: Remove unnecessary packages
-        run: |
-          echo ${{ secrets.SUDO_PASSWORD }} | sudo -S apt autoremove -y
+      - name: Update, upgrade & clean System
+        run: pwd
