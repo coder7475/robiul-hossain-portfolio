@@ -9,6 +9,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Update and upgrade apt packages
+        env:
+          SUDO_PASSWORD: ${{ secrets.SUDO_PASSWORD }}
         run: |
-          sudo apt-get update
-          sudo apt-get upgrade -y
+          echo $SUDO_PASSWORD | sudo apt update && sudo apt upgrade -y
