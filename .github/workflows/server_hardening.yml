@@ -6,13 +6,12 @@ on:
   workflow_dispatch: # Allow manual triggering
 
 jobs:
-  build:
+  hardening:
     runs-on: self-hosted
     steps:
       - name: Update and upgrade apt packages
         run: |
           echo ${{ secrets.SUDO_PASSWORD }} | sudo -S apt update && sudo -S apt upgrade -y
-
-      - name: Add badge to README.md
+      - name: Update badge in README.md
         run: |
-          echo "[![Server Hardening](https://github.com/coder7475/${{ github.repository }}/actions/workflows/server_hardening.yml/badge.svg)](https://github.com/coder7475/${{ github.repository }}/actions/workflows/server_hardening.yml)" >> README.md
+          sed -i '1s/.*Server Hardening.*/[![Server Hardening](https:\/\/github.com\/${{ github.repository }}\/actions\/workflows\/server_hardening.yml\/badge.svg)](https:\/\/github.com\/${{ github.repository }}\/actions\/workflows\/server_hardening.yml)/' README.md
