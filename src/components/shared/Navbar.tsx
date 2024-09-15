@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenuFold } from "react-icons/ai";
@@ -70,11 +71,13 @@ const Navbar = () => {
           className="flex h-[5.5rem] items-center justify-between font-medium text-slate-700 mx-4"
           role="navigation"
         >
-          <img
-            src="/image/www.png"
-            alt="portofolio icon"
-            className="w-12 h-12 lg:w-16 lg:h-16"
-          />
+          <Link href="/">
+            <Image
+              src="/image/www.png"
+              alt="Portfolio icon"
+              className="w-12 h-12 lg:w-16 lg:h-16"
+            />
+          </Link>
 
           {/*      <!-- Mobile trigger --> */}
           <button
