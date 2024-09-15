@@ -1,0 +1,28 @@
+name: CD
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: fahad-first-runner
+
+    steps:
+      - name: Change to app directory
+        run: cd /home/admin/robiul-hossain-portfolio
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linting
+        run: npm run lint
+
+      - name: Build
+        run: npm run build --if-present
+
+      - name: Reload PM2
+        run: pm2 reload 0
