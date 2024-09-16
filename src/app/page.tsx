@@ -5,7 +5,7 @@ import Footer from "../components/shared/Footer";
 import Projects from "../components/ui/Projects";
 import Contact from "../components/ui/Contact";
 import Education from "../components/ui/Education";
-// import Experience from "../components/ui/Experience";
+import Experience from "../components/ui/Experience";
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Projects />
       <Contact />
       <Education />
-      {/* <Experience /> */}
+      <Experience />
       <Footer />
     </div>
   );

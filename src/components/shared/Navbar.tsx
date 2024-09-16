@@ -76,6 +76,8 @@ const Navbar = () => {
               src="/image/www.png"
               alt="Portfolio icon"
               className="w-12 h-12 lg:w-16 lg:h-16"
+              width={64}
+              height={64}
             />
           </Link>
 
