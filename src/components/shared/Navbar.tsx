@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenuFold } from "react-icons/ai";
 
-const NavgiationLinks = (props: any) => {
+const NavgiationLinks = (props: { isToggleOpen: boolean }) => {
   return (
     <ul
       role="menubar"
