@@ -19,7 +19,7 @@ const ResumeBtn = () => {
       <a
         href="/resume/Robiul_Hossain_Resume.pdf"
         download="Robiul_Hossain_Resume"
-        className="inline-flex items-center justify-center h-12 gap-2 px-6 text-sm font-bold tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-300 focus:bg-emerald-300 disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none border-4 border-emerald-500 hover:shadow-md focus:shadow-md"
+        className="inline-flex items-center justify-center h-12 gap-2 px-6 text-sm font-bold tracking-wide transition duration-300 rounded focus-visible:outline-none whitespace-nowrap hover:bg-emerald-500 focus:bg-emerald-500 disabled:cursor-not-allowed disabled:border-emerald-500 disabled:bg-emerald-500 disabled:shadow-none border-2 border-emerald-600 hover:shadow-md focus:shadow-md"
       >
         <span className="order-2">Download Resume</span>
         <span className="relative only:-mx-6">
