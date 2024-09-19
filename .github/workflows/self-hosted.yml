@@ -13,7 +13,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Change Directory
-        run: cd /home/admin/robiul-hossain-portfolio
+        run: |
+        cd /home/admin/robiul-hossain-portfolio
+        pwd
 
       - name: Run linting
         run: npm run lint
