@@ -12,14 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Change Directory
+        run: cd /home/admin/robiul-hossain-portfolio
 
       - name: Run linting
         run: npm run lint
 
-      - name: Build
-        run: npm run build --if-present
-
-      - name: Reload PM2
-        run: pm2 reload 0
+      - name: Deploy
+        run: ./.scripts/deploy.sh
