@@ -12,13 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Change Directory
-        run: |
-        cd /home/admin/robiul-hossain-portfolio
-        pwd
-
       - name: Run linting
         run: npm run lint
+        working-directory: /home/admin/robiul-hossain-portfolio
 
       - name: Deploy
         run: ./.scripts/deploy.sh
+        working-directory: /home/admin/robiul-hossain-portfolio
