@@ -10,4 +10,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Update, upgrade & clean System
-        run: echo "${{ secrets.SUDO_PASSWORD }}" | sudo -S /home/admin/system_update.sh
+        run: echo "${{ secrets.SUDO_PASSWORD }}" | sudo -S /home/admin/scripts/system_update.sh
