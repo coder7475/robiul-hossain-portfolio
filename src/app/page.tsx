@@ -12,10 +12,10 @@ const HomePage = () => {
     <div>
       <Navbar />
       <Banner />
-      <Technology />
+{/*       <Technology />
       <Education />
       <Experience />
-      <Projects />
+      <Projects /> */}
       <Contact />
       <Footer />
     </div>
